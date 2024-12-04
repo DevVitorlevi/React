@@ -1,3 +1,4 @@
+import MyComponent from "./MyComponent"
 const TemplateExpression = ()=>{
     const Pessoa = {
         nome: 'Vitor Levi',
@@ -6,7 +7,10 @@ const TemplateExpression = ()=>{
         profissao:'Programador'
     }
     return (
-        <p>Olá {Pessoa.nome}, Você Tem {Pessoa.idade} anos. Mora em {Pessoa.cidade} e sua Profissão é {Pessoa.profissao}</p>
+        <div>
+            <p>Olá {Pessoa.nome}, Você Tem {Pessoa.idade} anos. Mora em {Pessoa.cidade} e sua Profissão é {Pessoa.profissao}</p>
+            <MyComponent/>
+        </div>
     )
 }
 export default TemplateExpression
