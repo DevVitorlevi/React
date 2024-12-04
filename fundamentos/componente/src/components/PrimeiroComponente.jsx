@@ -3,3 +3,5 @@ const Componente= ()=>{
         <div>Componente Criado</div>
     )
 }
+
+export default Componente;
