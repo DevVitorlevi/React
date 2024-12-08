@@ -5,15 +5,13 @@ import MyComponent from './components/MyComponent';
 //style
 import './App.css';
 import Events from './components/Events';
+import Challenger from './components/Challenger';
 
 function App() {
   return (
     <div className="App">
       <h1>Fundamentos React</h1>
-      <Componente/>
-      <TemplateExpression/>
-      <MyComponent/>
-      <Events/>
+      <Challenger/>
     </div>
   );
 }
